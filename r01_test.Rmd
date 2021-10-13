@@ -21,10 +21,12 @@ knitr::opts_chunk$set(
 
 > 這是一份 **R Markdown** 檔案(.Rmd)。
 
-- Markdown是一種輕量級標記式語言，能快速做文字排版。
-  - 關於Markdown(.md)，可參考 <https://markdown.tw/>。
-  - 關於R Markdown，可參考<http://rmarkdown.rstudio.com>。
-- 點擊 **Knit** 按鈕，可將文件輸出為 HTML, PDF, Word。
+-   Markdown是一種輕量級標記式語言，能快速做文字排版。
+
+    -   關於Markdown(.md)，可參考 <https://markdown.tw/>。
+    -   關於R Markdown，可參考<http://rmarkdown.rstudio.com>。
+
+-   點擊 **Knit** 按鈕，可將文件輸出為 HTML, PDF, Word。
 
 ## 2 區塊(Chunk)
 
@@ -47,7 +49,7 @@ summary(cars)
 
 ### 2.3 輸出結果，但不顯示程式碼
 
-- echo=FALSE
+-   echo=FALSE
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
@@ -55,7 +57,7 @@ plot(pressure)
 
 ### 2.4 輸出程式碼，但不顯示結果
 
-- eval=FALSE
+-   eval=FALSE
 
 ```{r eval=FALSE}
 dim(iris)
@@ -63,7 +65,7 @@ dim(iris)
 
 ### 2.5 美化表格
 
-- 參考 [kable](https://bookdown.org/yihui/rmarkdown-cookbook/kable.html)。
+-   參考 [kable](https://bookdown.org/yihui/rmarkdown-cookbook/kable.html)。
 
 ```{r}
 data <- iris[1:5, ]
@@ -84,6 +86,5 @@ x <- 1
 
 ```
 
-
-- 變數x的值為: `r x`
-- 2+2 = `r 2+2`
+-   變數x的值為: `r x`
+-   2+2 = `r 2+2`
